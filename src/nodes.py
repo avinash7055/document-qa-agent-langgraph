@@ -4,6 +4,11 @@ import pandas as pd
 from langchain_core.documents import Document
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 class Nodes:
     @staticmethod
