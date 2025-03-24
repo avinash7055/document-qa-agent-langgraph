@@ -34,7 +34,7 @@ The **Document QA Agent** is a sophisticated application designed to extract act
 - **Python:** Version 3.8 or higher
 - **Git:** For cloning and version control
 - **GitHub Account:** For repository access
-- **Grok API Key:** Required for `langchain-groq`, obtainable from [xAI](https://xai.com)
+- **Groq API Key:** Required for `langchain-groq`, obtainable from groq.com
 
 ## Setup Instructions
 
