@@ -28,4 +28,25 @@ The **Document QA Agent** is a sophisticated application designed to extract act
 - **Pandas:** Parses Excel files into text for processing.
 - **Streamlit:** Provides a web-based front-end for user interaction.
 
-## Project Structure
+
+
+## Prerequisites
+- **Python:** Version 3.8 or higher
+- **Git:** For cloning and version control
+- **GitHub Account:** For repository access
+- **Grok API Key:** Required for `langchain-groq`, obtainable from [xAI](https://xai.com)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/avinash7055/document-qa-agent-langgraph.git
+cd document-qa-agent-langgraph
+
+Make virtual environment
+python -m venv venv
+venv\Scripts\Activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
